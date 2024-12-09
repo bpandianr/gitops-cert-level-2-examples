@@ -2,7 +2,7 @@ apiVersion: batch/v1
 kind: Job
 metadata:
   namespace: example06
-  name: slack-notify-12345885
+  generateName: slack-notify-
   labels:
     codefresh.io/cert: slack-job  
   annotations:
